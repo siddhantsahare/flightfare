@@ -21,31 +21,23 @@ Link:
 
 ## Installation
 The Code is written in Python 3.8+.
-In order to run the project, please create a virtual environment and then open terminal in that environment and then install dependencies from requirements.txt.
+
+Step 1 : Download the repo on your PC.
+
+Step 2 : 
+In order to run the project, please create a virtual environment and then open terminal in that environment and then cd into the folder to install dependencies from requirements.txt.
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## Deployement on Heroku
-Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
+Step 3 : 
+In terminal, now run command 
 
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
-
-Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
-
-## Directory Tree 
+```bash
+python3 app.py
 ```
-├── static 
-│   ├── css
-├── template
-│   ├── home.html
-├── Procfile
-├── README.md
-├── app.py
-├── flight_price.ipynb
-├── flight_rf.pkl
-├── requirements.txt
-```
+This is open the web app. 
 
 ## Technologies Used
 
